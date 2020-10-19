@@ -24,28 +24,9 @@ Or using [Docker](https://www.docker.com/)
   - Windows: `target/release/actix-web-rest-api-with-jwt.exe`
   - Linux/UNIX: `target/release/actix-web-rest-api-with-jwt`
 - Enjoy! 😄
-
-### Docker
-
-- Enter into project directory
-- Run `docker-compose -f docker-compose.local.yml up` for local environment or `docker-compose -f docker-compose.prod.yml up` for production environment
-- Enjoy! 😄
-
 ## APIs
 
-### Address: **`localhost:8000`**
-
-### `GET /api/ping`: Ping
-
-```bash
-curl -X GET -i 'http://127.0.0.1:8000/api/ping'
-```
-
-- Response:
-  - 200 OK
-  ```
-  pong!
-  ```
+### Address: **`localhost:8000`
 
 ### `POST /api/auth/signup`: Signup
 
